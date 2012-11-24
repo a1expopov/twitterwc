@@ -28,9 +28,7 @@ FREQUENCY_STORE = {
     'table': {
         'name': 'frequency',
         'def':
-            '(year int, month int, day int, hour int, minute int, word text)'
-        }
-    }
+            '(year int, month int, day int, hour int, minute int, word text)'}}
 
 FREQUENCY_STORE['connpar'] = {
     'host':'localhost',
